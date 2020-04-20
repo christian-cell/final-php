@@ -1,0 +1,35 @@
+
+#contenedor{
+    width: 500px;
+    margin:auto;
+    padding-top: 10px;
+}
+
+
+#titulo{
+    width: 200px;margin-top: 20px;margin-left: 180px;
+    font-size: 30px ;padding-left: 20px;
+}
+
+
+#rights{
+     margin-bottom: 20px;
+    width: 380px; margin-left: 60px;
+    margin-top: 15px;
+    margin:auto;
+    color:black;
+}
+
+
+#alarma{
+    margin-top: 10px;
+    height: 30px;
+}
+
+
+#alar{
+    margin-top: 10px;
+    height: 30px;
+}
+
+

@@ -1,0 +1,46 @@
+<form action="data.php" method="POST">
+        <input name="username" type="text" />
+        <input name="password" type="password" /> 
+        <input type="submit" value="Iniciar Sesion"name="iniciar_sesion" />
+     </form>
+
+
+
+
+     action="data.php" method="POST"
+
+
+
+     class Password{
+    constructor(password,dblcheck){
+        this.password = password;
+        this.dblcheck = dblcheck;
+    }
+}
+
+
+
+
+var formu2 = document.getElementById('formulario')
+    .addEventListener('submit',function(){
+        const password = document.getElementById('password').value;
+        const dblcheck = document.getElementById('dblcheck').value;
+
+        const newPassword = new Password(password,dblcheck);
+
+        if(password === dblcheck){
+            alert('contraseña correcta');
+        }else{
+            alert('password incorrecto');
+        }
+    })
+
+
+
+    8 caracteres
+ var compare = [1,2,3,4,5,6,7,8];
+        if(password<compare.length){
+            alert('Password ha de tener minimo 8 carateres');
+        }
+
+       
